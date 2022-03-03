@@ -1,4 +1,1 @@
-I
-#!/bin/bash
-"why me"
-
+script that switch current user to betty or makes betty superuser temporarily
