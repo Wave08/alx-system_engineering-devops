@@ -1,1 +1,1 @@
-script that switch current user to betty or makes betty superuser temporarily
+ script prints effective username of current user 
