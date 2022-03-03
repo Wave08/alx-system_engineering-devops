@@ -1,4 +1,4 @@
-I
+i
 #!/bin/bash
-"why me"
+pwd
 
