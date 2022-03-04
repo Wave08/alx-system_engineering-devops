@@ -1,1 +1,1 @@
- listing hidden files in long format 
+ list digital files ony 
