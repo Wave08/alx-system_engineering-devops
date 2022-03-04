@@ -1,1 +1,1 @@
- script changes owner and group owner 
+ scrpt changes the owner 
