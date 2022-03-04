@@ -1,1 +1,1 @@
- script change owner of fie helo 
+ script creates an empty file 
