@@ -1,1 +1,1 @@
- change of dirctory 
+ list long format 
