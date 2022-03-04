@@ -1,1 +1,1 @@
- script prints effective username of current user 
+ script change owner of fie helo 
