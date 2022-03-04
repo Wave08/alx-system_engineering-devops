@@ -1,1 +1,1 @@
- mirror permissions 
+ permissions to all subDirectories 
