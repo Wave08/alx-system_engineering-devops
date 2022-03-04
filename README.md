@@ -1,1 +1,1 @@
- permissions to all subDirectories 
+ script creates directory 
