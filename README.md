@@ -1,1 +1,1 @@
- delete directory 
+ delete first directory 
