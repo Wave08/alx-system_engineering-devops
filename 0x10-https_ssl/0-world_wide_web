@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Takes a subdomain and a domain and returns information about the subdomain
+
+get_subdomain_info() {
+    local domain=$1
+    local subdomain=$2
+    local full_domain="${subdomain}.${domain}"
+    local result
+    result=$(dig +short "${full_domain}")
+    local record_type="A"
+
+    if [ -z "$result" ]; then
+        echo "The subdomain ${subdomain} does not exits."
+    else
+        echo "The subdomain ${subdomain} is a ${record_type} record and points to ${result}"
+    fi
+}
+
+#Main Script logic
+domain=$1
+subdomain=$2
+
+if [ -z "$subdomain" ]; then
+    # No specific subdomain provided, check default subdomains
+    for sub in www lb-01 web-01 web-02; do
+        get_subdomain_info "$domain" $sub
+    done
+else
+    #Specific subdomain provided
+    get_subdomain_info "$domain" "$subdomain"
+fi
